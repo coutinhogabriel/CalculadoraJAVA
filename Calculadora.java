@@ -3,7 +3,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Calculadora {
+
+
+public class Calculadora extends JPanel {
     private JTextField caixa1; // Campo de texto onde os números e o resultado são exibidos
     private JLabel operacaoLabel; // Rótulo para mostrar a operação atual
     private double numeroAnterior = 0; // Armazena o número anterior digitado
@@ -11,6 +13,8 @@ public class Calculadora {
     private boolean novoNumero = true; // Verifica se é um novo número
 
     public Calculadora() {
+        super();
+        this.add(new JLabel("Calculadora"));
         // Configuração da janela principal
         JFrame janelaP = new JFrame("Calculadora"); // Alteração do título
         BorderLayout border = new BorderLayout();
@@ -126,7 +130,7 @@ public class Calculadora {
         }
     }
     // Rodar o programa sem precisar utilizar o App.java
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new Calculadora());
-    }
+    //public static void main(String[] args) {
+     //   SwingUtilities.invokeLater(() -> new Calculadora());
+    //}
 }
