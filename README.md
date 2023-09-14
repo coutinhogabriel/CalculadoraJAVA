@@ -4,7 +4,7 @@ Relatório: Introdução aos Conceitos de Layouts e a Importância da Escolha Ad
 
 Introdução
 
-Este relatório tem como objetivo fornece uma introdução aos conceitos de layouts em design de interface e destacar a importância de escolher o layout adequado em projetos de software. Além disso, será apresentada uma descrição detalhada de uma calculadora que utiliza três layouts diferentes: GridBagLayout, GridLayout, BorderLayout, BoxLayout, FlowLayout. Faremos uma comparação entre esses layouts, por fim, refletiremos sobre a experiência de aprendizado adquirida e sua aplicação em projetos futuros.
+Este relatório tem como objetivo fornecer uma introdução aos conceitos de layouts em design de interface e destacar a importância de escolher o layout adequado em projetos de software. Além disso, será apresentada uma descrição detalhada de uma calculadora que utiliza três layouts diferentes: GridBagLayout, GridLayout, BorderLayout, BoxLayout, FlowLayout. Faremos uma comparação entre esses layouts, por fim, refletiremos sobre a experiência de aprendizado adquirida e sua aplicação em projetos futuros.
 
 Conceitos de Layouts e Sua Importância
 
