@@ -61,7 +61,7 @@ public class Calculadora extends JPanel {
 
         // Configurações da janela principal
         janelaP.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        janelaP.setBounds(500, 200, 500, 600); // Ajuste do tamanho da janela
+        janelaP.setBounds(500, 200, 500, 600); // Ajuste do tamanho e coordenadas da janela
         janelaP.setVisible(true);
     }
 
