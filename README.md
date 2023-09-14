@@ -20,7 +20,7 @@ A calculadora é uma aplicação simples que ilustra a utilização de três lay
 Calculadora 1: Calculadora Simples
 
 Descrição: Este projeto implementa uma calculadora simples em Java com uma interface gráfica. O código utiliza os layouts BorderLayout e GridLayout para organizar os componentes na janela principal e também faz uso de expressões regulares para tratar a entrada do usuário.
-Uso do BorderLayout e GridLayout:
+Uso do BorderLayout e GridLayout.
 BorderLayout:
 O BorderLayout foi utilizado para organizar os componentes na janela principal da calculadora.
 A região Norte foi destinada a um rótulo (JLabel) que informa ao usuário sobre a função da calculadora.
@@ -34,7 +34,19 @@ Os botões foram adicionados à grade, cada um com seu respectivo texto, como n�
 O GridLayout facilita a criação de uma grade de botões uniformemente distribuídos na interface da calculadora, garantindo uma organização visual agradável.
 
 Calculado 2: Calculadora IMC
-Descrição:
+Descrição: O código fornecido é uma implementação de uma calculadora para o cálculo do IMC (Indícice de Masa Corporal)usando uma interface gráfica em Java. Vamos resumir os principais recursos e componentes presentes no código:
+Importações de Recursos: O código importa as classes necessárias do Java: javax.swing.* e java.awt.*, para criar a interface gráfica.
+Classe CalculadoraMMCGridBagLayout: A classe principal que encapsula toda a funcionalidade da calculadora IMC.
+Componentes da Interface Gráfica:
+JFrame: A janela principal da aplicação.
+JTextField: Dois campos de texto para a entrada de números Peso(kg) e Altura(m).
+JButton: Um botão para iniciar o cálculo do IMC.
+JLabel: Um rótulo para exibir o resultado do cálculo.
+Método Construtor: O construtor da classe CalculadoraMMCGridBagLayout é responsável por configurar a interface gráfica. Ele cria uma janela, define o layout como GridBagLayout, e adiciona os componentes (rótulos, campos de texto, botão e rótulo de resultado) com posições e restrições específicas.
+Ação do Botão: O botão "Calcular IMC" possui um ouvinte de ação que chama o método calcularMMC quando clicado.
+Método calcularMMC: Este método é chamado quando o botão é pressionado. Ele lê os valores dos campos de texto, tenta converter os valores em números float e chama o método calcularMMC(numero1 (Peso), numero2(Altura)) para realizar o cálculo. O resultado é exibido no rótulo de resultado ou uma mensagem de erro é exibida se a entrada não for válida.
+Método calcularMMC(float numero1, float numero2): Este método recebe dois números como entrada e calcula o IMC deles. O IMC é calculado usando um loop enquanto o resultado não for divisível pelo primeiro número. O resultado é então retornado.
+No geral, este código cria uma aplicação gráfica simples para calcular o IMC de dois números fornecidos pelo usuário e exibir o resultado na interface gráfica.
 
 Calculado 3: Calculadora Custo Viajem
 
