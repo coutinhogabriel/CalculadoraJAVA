@@ -53,12 +53,10 @@ Calculado 3: Calculadora Custo Viajem
 Descrição: A calculadora de custo de viagem é uma aplicação que permite calcular o custo estimado de uma viagem com base em três variáveis principais: preço do combustível, consumo do automóvel (em quilômetros por litro) e a distância em quilômetros que será percorrida.
 A seguir, descrevemos como cada um dos três layouts foi utilizado na interface da calculadora:
 1.	BorderLayout:
-•	Na área norte (NORTH), foi colocado um rótulo ou campo de texto para inserir o preço do combustível.
-•	Na área central (CENTER), foi adicionado um campo de texto para o consumo do automóvel.
-•	Na área sul (SOUTH), foi incluído um botão de cálculo para realizar o cálculo do custo da viagem.
+•	Na área sul (SOUTH), foi incluído um botões numéricos.
 
 3.	BoxLayout:
-•	Os elementos na interface foram organizados em uma única coluna vertical, garantindo que a entrada do preço do combustível, do consumo do automóvel e o botão de cálculo estejam alinhados verticalmente.
+•	Os elementos na interface foram organizados em uma única coluna vertical
 
 5.	FlowLayout:
 •	Os elementos, como rótulos e campos de entrada de dados, foram organizados em uma única linha horizontal, proporcionando uma interface mais linear e compacta.
